@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/api/', userRoutes)
 
 app.use('/', (req, res, next) => {
-    res.send('Welcome to dummy');
+    res.send('Welcome to dummy draggable resizable  components');
 })
 
 // create server
